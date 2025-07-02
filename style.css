@@ -6,12 +6,14 @@
 }
 
 body {
-    background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+  background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column; /* <-- ADICIONE ESTA LINHA! */
+  justify-content: flex-end; /* <-- Agora isso moverá para a PARTE INFERIOR (vertical) */
+  align-items: center;    /* <-- E isso centralizará HORIZONTALMENTE */
 }
+
 
 
 body::before {
