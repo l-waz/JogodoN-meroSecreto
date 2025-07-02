@@ -17,7 +17,7 @@ body {
 body::before {
     background-image: url("img/IMG-20250621-WA0000.jpg");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
     content: "";
     display: block;
     position: absolute;
