@@ -10,14 +10,14 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: center;
 }
 
 
 body::before {
     background-image: url("img/IMG-20250621-WA0000.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     content: "";
     display: block;
     position: absolute;
