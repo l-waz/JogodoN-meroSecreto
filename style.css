@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: yellow;
+    color: white;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: center;
 }
 
 
